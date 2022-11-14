@@ -1,0 +1,15 @@
+[package]
+name = "plugin-loader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+paste = "1.0.9"
+quote = "1.0.21"
+syn = "1.0.103"
+toml_edit = "0.15.0"
+plugin-shim = { path = "./plugin-shim" }
+plugin-lib = { path="../plugin-lib" }
+once_cell = { version = "1.16.0", features = ["parking_lot"] }
