@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 plugin-lib = { path="../../plugin-lib" }
+async-trait = "0.1"

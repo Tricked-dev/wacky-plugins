@@ -8,8 +8,8 @@ edition = "2021"
 [dependencies]
 plugin-lib = { path="../../plugin-lib" }
 hello-world = { path = "../../plugins/hello-world" }
+bye-world = { path = "../../plugins/bye-world" }
 
 [build-dependencies]
 toml_edit = "0.15.0"
 quote = "1.0.21"
-plugin-lib = { path="../../plugin-lib" }

@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 plugin-loader = { path="./plugin-loader" }
+tokio = { version = "1.21.2", features = ["rt", "rt-multi-thread", "macros"] }
 
 [workspace]
 resolver ="2"
@@ -15,5 +16,4 @@ members = [
     "plugin-loader",
     "plugin-loader/plugin-shim",
     "plugin-lib",
-    "plugins/hello-world"
 ]
